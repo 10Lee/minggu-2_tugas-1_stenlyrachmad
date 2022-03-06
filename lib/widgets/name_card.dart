@@ -35,8 +35,12 @@ class NameCard extends StatelessWidget {
                   ),
                   children: [
                     TextSpan(
-                        text: ' Stenly Rachmad Binambuni',
-                        style: TextStyle(fontWeight: FontWeight.normal))
+                      text: ' Stenly Rachmad Binambuni',
+                      style: TextStyle(
+                        fontWeight: FontWeight.normal,
+                        decoration: TextDecoration.underline,
+                      ),
+                    )
                   ],
                 ),
               ),
