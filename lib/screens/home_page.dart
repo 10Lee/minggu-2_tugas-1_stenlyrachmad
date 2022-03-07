@@ -51,19 +51,10 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
         child: Center(
-            // child: ListView(
-            //   physics: BouncingScrollPhysics(
-            //     parent: AlwaysScrollableScrollPhysics(),
-            //   ),
-            //   children: [
-            //     NameCard(),
-            //     MyZodiac(),
-            //     MyComments(),
-            //   ],
-            // ),
             child: ListView.builder(
-          physics:
-              BouncingScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
+          physics: BouncingScrollPhysics(
+            parent: AlwaysScrollableScrollPhysics(),
+          ),
           itemCount: 1 + _listItem.length,
           itemBuilder: (BuildContext context, int index) {
             if (index == 0) {
