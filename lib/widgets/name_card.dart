@@ -8,7 +8,7 @@ class NameCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: MediaQuery.of(context).size.width / 1.25,
+      // width: MediaQuery.of(context).size.width / 1.25,
       child: Card(
         margin: const EdgeInsets.all(40.0),
         child: Padding(
